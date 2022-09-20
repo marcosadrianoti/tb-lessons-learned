@@ -43,8 +43,6 @@ p {
 
 .lado-direito {
   display: inline-block;
-  position:absolute;
   border: 1px solid green;
-  width: 40%;
-  top: 814px;
+  width: 48%;
 }
