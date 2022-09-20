@@ -36,12 +36,10 @@ p {
 
 .lado-esquerdo {
   display: inline-block;
-  border: 1px solid green;
   width: 50%;
 }
 
 .lado-direito {
   display: inline-block;
-  border: 1px solid green;
   width: 48%;
 }
