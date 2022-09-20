@@ -1,24 +1,50 @@
 body {
-    background-color: rgb(253, 251, 251);
-    font-family: 'Courier New', Courier, monospace;
-    line-height: 20px;
-    color: rgb(94, 20, 20);
-    font-size:small;
+  /* display: inline; */
+  background-color: rgb(253, 251, 251);
+  font-family: "Courier New", Courier, monospace;
+  line-height: 20px;
+  color: rgb(94, 20, 20);
+  font-size: small;
+  margin-left: 10px;
+  margin-top: 60px;
+}
+
+a {
+  display: inline-block;
+  width: 100%;
+}
+
+p {
+  margin: 10px;
 }
 
 #cabecalho {
-    position: fixed;
-    top: 0;
+  position: fixed;
+  top: 0;
 }
 
 #minha_foto {
-    width: 150px;
-    border: 5px solid orange;
-    border-radius: 10px;
+  width: 150px;
+  border: 5px solid orange;
+  border-radius: 10px;
 }
 
 #tabela_bonus {
   border: 1px solid blue;
   margin: 10px;
   padding: 10px;
+}
+
+.lado-esquerdo {
+  display: inline-block;
+  border: 1px solid green;
+  width: 50%;
+}
+
+.lado-direito {
+  display: inline-block;
+  position:absolute;
+  border: 1px solid green;
+  width: 40%;
+  top: 814px;
 }
