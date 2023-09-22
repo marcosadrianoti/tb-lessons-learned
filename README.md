@@ -32,4 +32,23 @@ Projeto desenvolvido por mim durante o curso de Desenvolvimento Web na Trybe. Di
   
 ## Rodando o projeto localmente
 
-Para rodar o projeto em sua máquina, simplesmente abra o arquivo index.html no seu navegador preferido.
+Abra seu terminal, crie um diretório no local de sua preferência com o comando `mkdir` e acesse o diretório criado com o comando `cd`:
+
+```bash
+mkdir meu-diretorio &&
+cd meu-diretorio
+```
+
+Clone o projeto com o comando `git clone`:
+
+```bash
+git clone git@github.com:marcosadrianoti/tb-lessons-learned.git
+```
+
+Acesse o diretório do projeto com o comando `cd`:
+
+```bash
+cd tb-lessons-learned
+```
+
+Para rodar o projeto em sua máquina, simplesmente abra o arquivo `index.html` no seu navegador preferido.
